@@ -1,0 +1,19 @@
+.characters-container {
+    width: 100vw;
+    height: 78vh;
+    background: linear-gradient(to top, rgb(218, 212, 137), rgb(255, 249, 166));
+}
+
+.card-container {
+    width: 80%;
+    height: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.274);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.spinner {
+    width: 4rem;
+}

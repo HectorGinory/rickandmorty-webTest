@@ -1,0 +1,14 @@
+.navbar-container {
+    width: 100vw;
+    height: 14vh;
+    background: linear-gradient(to bottom, rgb(93, 185, 0), lawngreen);
+}
+
+.navbar-container img {
+    height: 10vh;
+}
+
+.btn-navbar {
+    margin: 0 2rem;
+    font-weight: bold;
+}

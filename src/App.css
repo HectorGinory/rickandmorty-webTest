@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-c-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-c-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-c-start-col {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.click {
+    cursor: pointer;
+}

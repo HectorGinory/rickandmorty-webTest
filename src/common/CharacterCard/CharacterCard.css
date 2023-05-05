@@ -1,0 +1,38 @@
+.characterCard {
+    width: 10rem;
+    height: 10rem;
+    color: black;
+    border-radius: 1rem;
+    margin: 1rem 10rem;
+    background: rgba(255, 255, 255, 0.493);
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.719);
+    padding: 1rem 0rem 1rem 1rem;
+    transition: .5s;
+}
+
+.characterCard:hover {
+    margin: 1rem 5rem;
+    width: 20rem;
+}
+
+.characterCard:hover .info-character {
+    width: 10rem;
+}
+
+.characterCard:hover .opacity-d1 {
+    opacity: 1;
+    transition: .3s;
+    transition-delay: .5s;
+}
+.characterCard img {
+    height: 90%;
+    border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.719);
+}
+
+.characterCard .info-character {
+    width: 10rem;
+    opacity: 0;
+}

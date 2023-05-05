@@ -1,0 +1,5 @@
+.footer-container {
+    width: 100vw;
+    height: 8vh;
+    background: linear-gradient(to top, rgb(93, 185, 0), lawngreen);
+}

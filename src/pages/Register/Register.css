@@ -1,0 +1,5 @@
+.register-container {
+    width: 100vw;
+    height: 78vh;
+    background: linear-gradient(to top, rgb(209, 177, 134), rgb(255, 216, 166));
+}
